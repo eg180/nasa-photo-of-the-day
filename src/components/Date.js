@@ -1,8 +1,13 @@
-from React import 'react';
+import React from 'react';
 
 
 
 
-export default function Date(props ) {
-    
+export default function Date() {
+    return (
+        <div>
+            <p>This is the date Component</p>
+        </div>
+        
+    )
 }

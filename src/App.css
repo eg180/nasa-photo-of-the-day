@@ -7,6 +7,10 @@ body {
   background-color: #355070;
 }
 
+#main-title {
+  color: #EAAC8B;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
