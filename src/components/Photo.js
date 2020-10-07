@@ -1,12 +1,16 @@
 import React from 'react';
+import App from '../App';
 
 
 
 
-export default function Photo() {
+export default function Photo(props) {
+
+const { photoDuJour } = props;
+
     return (
         <div id="photo-component">
-            <p>PHOTO GOES HERE</p>
+        <img>{props.currentPhoto}</img>
         </div>
         
     )
