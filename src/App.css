@@ -4,11 +4,24 @@
 }
 
 body {
-  background-color: #355070;
+  background-color: #6D597A;
+  margin-top: 5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
 }
 
 #main-title {
   color: #EAAC8B;
+  background-color: #355070;
+}
+
+#date-component {
+  background-color: #B56576;
+  padding: 3rem;
+}
+
+#photo-component {
+  background-color: #EAAC8B;
 }
 
 .App-logo {
