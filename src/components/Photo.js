@@ -6,11 +6,11 @@ import App from '../App';
 
 export default function Photo(props) {
 
-const { photoDuJour } = props;
+const { state } = props;
 
     return (
         <div id="photo-component">
-        <img>{props.currentPhoto}</img>
+        <img src={state} alt="NASA's Photo of the Day"></img>
         </div>
         
     )
