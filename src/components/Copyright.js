@@ -3,10 +3,14 @@ import React from 'react';
 
 
 
-export default function Copyright() {
+export default function Copyright(props) {
+
+    const { state_copyright } = props;
+
+
     return (
         <div id="copyright-component">
-            <p>This is the copyright Component</p>
+            <p id="copyright_footer">Photo copyright: {state_copyright}</p>
         </div>
         
     )

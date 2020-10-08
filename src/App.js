@@ -28,24 +28,25 @@ function App() {
       
       console.log(res.data.url)
       let photoURL = res.data.url;
-      setState(res.data.url)
+      setState(res.data)
       
     })
   };
   console.log("below is state");
   console.log(state);
+  console.log(state.explanation);
 
   
 
   return (
     <div className="App">
       <h1 id="main-title">🚀NASA's Photo of the Day!🌚</h1>
-      <Date /> 
+      <Date state_date={state.date} state_explanation={state.explanation} state_photographer={state.copyright}/> 
       <div>
-      <Photo state={state} />
+      <Photo state={state.url} />
       </div>
       <div>
-        <Copyright />
+        <Copyright state_copyright={state.copyright}/>
       </div>
     </div>
   );
