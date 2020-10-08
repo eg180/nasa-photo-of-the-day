@@ -6,6 +6,13 @@ import Copyright from './components/Copyright';
 import Axios from 'axios';
 import { BASE_URL, API_KEY } from './index';
 import _ from "lodash";
+import styled from 'styled-components'
+
+const H1Styling = styled.h1`
+  color: #1d3557;
+  background-color: #ffbe0b;
+  border-radius: 2%;
+`
 
 
 
@@ -40,7 +47,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 id="main-title">🚀NASA's Photo of the Day!🌚</h1>
+      <H1Styling id="main-title">🚀NASA's Photo of the Day!🌚</H1Styling>
       <Date state_date={state.date} state_explanation={state.explanation} state_photographer={state.copyright}/> 
       <div>
       <Photo state={state.url} />

@@ -1,6 +1,9 @@
 import React from 'react';
+import styled from 'styled-components'
 
-
+const StyledCopyrightP = styled.p`
+    color: #e56b6f;
+`
 
 
 export default function Copyright(props) {
@@ -10,7 +13,7 @@ export default function Copyright(props) {
 
     return (
         <div id="copyright-component">
-            <p id='copyright_footer'>Built by Erick Gonzalez using <span>⚛</span>React</p>
+            <StyledCopyrightP>Built by Erick Gonzalez using ⚛ React</StyledCopyrightP>
         </div>
         
     )
