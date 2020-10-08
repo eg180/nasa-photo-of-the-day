@@ -1,5 +1,19 @@
 import React from 'react';
+import styled from 'styled-components'
 
+const StyledDateExplanationDiv = styled.div`
+    
+    font-family: 'Special Elite', cursive;
+    font-weight: 900;
+    background-color: #5e60ce;
+    padding: 3rem;
+    color: #80ffdb;
+`
+
+const StyledParagraph = styled.p`
+    font-weight: 700;
+    color: #a8dadc;
+`
 
 
 
@@ -8,12 +22,12 @@ export default function Date(props) {
 
 
     return (
-        <div id="date-component">
-            <p class="headings">Date taken: {state_date}</p>
-            <p class="headings">Explanation: {state_explanation}</p>
-            <p class="headings">Photographer: {state_photographer}</p>
+        <StyledDateExplanationDiv>
+            <p>Date taken: {state_date}</p>
+            <StyledParagraph>{state_explanation}</StyledParagraph>
+            <p>Photographer: {state_photographer}</p>
 
-        </div>
+        </StyledDateExplanationDiv>
         
     )
 }
