@@ -10,7 +10,7 @@ export default function Copyright(props) {
 
     return (
         <div id="copyright-component">
-            <p id="copyright_footer">Photo copyright: {state_copyright}</p>
+            <p id='copyright_footer'>Built by Erick Gonzalez using <span>⚛</span>React</p>
         </div>
         
     )
