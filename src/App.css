@@ -1,5 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Special+Elite&display=swap');
+
+
 .App {
   text-align: center;
+  
+}
+
+body {
+  background-color: #0B132B;
+  margin-top: 5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+
+
+#main-title {
+  color: #6FFFE9;
+  background-color: #463e45;
+  font-family: 'Exo 2', sans-serif;
+}
+
+#date-component {
+  background-color: #1C2541;
+  padding: 3rem;
+  color: rgb(242, 224, 245);
+}
+
+#copyright_footer {
+  font-size: .25rem;
+  margin: 2rem;
+}
+
+.headings {
+  font-family: 'Special Elite', cursive;
+  font-weight: 900;
+}
+
+#photo-component {
+  background-color: #3A506B;
+}
+
+img {
+  max-width: 75%;
+  padding: 2rem;
 }
 
 .App-logo {
